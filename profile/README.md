@@ -4,12 +4,11 @@
 
 **Operational Diagnostics, Live RPC Inspector & Transaction Failure Resolver for Stellar Soroban Smart Contracts**
 
-[![Releases](https://img.shields.io/badge/Release-v0.1.0-2FA98C?style=flat-square&logo=github)](https://github.com/TrapTrace/soroban-error-cli/releases)
+[![Releases](https://img.shields.io/badge/Release-v0.2.0-2FA98C?style=flat-square&logo=github)](https://github.com/TrapTrace/soroban-error-cli/releases)
 [![Web Studio](https://img.shields.io/badge/Live%20Studio-Vercel-1B1F23?style=flat-square&logo=vercel&logoColor=white)](https://traptrace-explorer.vercel.app)
 [![Catalog Entries](https://img.shields.io/badge/Verified%20Entries-10-E2984B?style=flat-square)](https://github.com/TrapTrace/soroban-error-index)
 [![CI Status](https://img.shields.io/badge/CI%20Pipelines-Passing-2FA98C?style=flat-square)](https://github.com/TrapTrace)
 [![License](https://img.shields.io/badge/License-MIT-1B1F23?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Stellar Wave](https://img.shields.io/badge/Drips%20Wave-8%20Target-E2984B?style=flat-square)](https://drips.network)
 
 </div>
 
@@ -25,19 +24,23 @@ Soroban smart contract developers on Stellar frequently encounter cryptic WASM e
 ┌────────────────────────────────────────────────────────────────────────┐
 │                         TRAPTRACE ECOSYSTEM                             │
 ├────────────────────────────┬───────────────────────────────────────────┤
-│ 🛠️  traptrace-cli          │ Operational Python CLI tool:              │
+│ 🛠️  traptrace-cli          │ Operational Python CLI tool (v0.2.0):     │
 │    (Developer Terminal)    │ • Live JSON-RPC 2.0 network client        │
 │                            │ • On-chain tx inspector & root-cause map  │
 │                            │ • Pre-flight simulation debugger          │
+│                            │ • Ranked fuzzy search & report exports    │
 │                            │ • Contract storage & TTL auditor          │
 ├────────────────────────────┼───────────────────────────────────────────┤
 │ 🌐  soroban-error-explorer │ Live Web Diagnostics Studio (Vercel):     │
 │    (Browser Studio)        │ • Real-time Stellar Testnet connectivity  │
+│                            │ • Live contract event & trap stream       │
 │                            │ • Interactive tx hash & XDR debugger      │
+│                            │ • Shareable permalinks & report exports   │
 │                            │ • Automated error catalog lookup          │
 ├────────────────────────────┼───────────────────────────────────────────┤
 │ 📖  soroban-error-index    │ Schema-validated Error Knowledge Base:    │
 │    (Diagnostic Database)   │ • 10 testnet-verified seed entries        │
+│                            │ • Automated testnet verification harness  │
 │                            │ • Strict JSON Schema CI validation        │
 │                            │ • Automated index-to-explorer sync pipeline│
 └────────────────────────────┴───────────────────────────────────────────┘
